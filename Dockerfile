@@ -1,3 +1,6 @@
+#appertly/meanjs is basic mean-stack install application meant to be run along side mongodb
+#it includes angular cli and nodemon for development
+
 FROM ubuntu:latest
 MAINTAINER Stephanie McLaren
 
