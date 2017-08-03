@@ -32,7 +32,4 @@ RUN npm install --global nodemon @angular/cli
 RUN mkdir -p /opt/mean.js/public/lib
 WORKDIR /opt/mean.js
 
-ADD /scripts/start.sh /scripts/start.sh
-RUN chmod +x /scripts/start.sh
-
 CMD nodemon
