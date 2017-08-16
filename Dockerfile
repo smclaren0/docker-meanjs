@@ -30,6 +30,7 @@ RUN sudo apt-get install -yq nodejs \
 RUN npm install --global nodemon @angular/cli
 
 RUN mkdir -p /opt/mean.js/public/lib
+RUN mkdir -p /opt/mean.js/etc/ssl/private
 WORKDIR /opt/mean.js
 
 CMD nodemon
